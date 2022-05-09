@@ -127,6 +127,22 @@ button {
     }
 }
 
+.info-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 24px 0px 52px 0px;
+    gap: 52px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    justify-content: center;
+    margin: 12px;
+}
+
 .image {
     width: 150px;
     height: 175px;
@@ -137,26 +153,10 @@ button {
     background-repeat: repeat;
 }
 
-.info-main {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 24px 0px 52px 0px;
-    gap: 52px;
-}
-
 @media only screen and (max-width: 375px) {
     .info-main {
         justify-content: center;
     }
-}
-
-.info-box {
-    display: flex;
-    flex-direction: column;
-    gap: 52px;
-    justify-content: center;
-    margin: 12px;
 }
 
 .text {
