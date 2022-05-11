@@ -28,6 +28,17 @@ button {
     font-size: 18px;
 }
 
+blockquote {
+    max-width: 600px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+cite {
+    margin-left: auto   ;
+    font-style: normal  ;
+}
+
 /* NAVBAR/SHOWCASE */
 
 .container {
@@ -168,4 +179,10 @@ button {
 
 .quote {
     background-color: #E5E7EB;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
